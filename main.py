@@ -11,6 +11,7 @@ class CategoryEnum(str, Enum):
     workAndStudying = 'Work and Studying'
     relationships = 'Relationships'
     socialConnections = 'Social Connections'
+    stress = 'Stress'
 
 app = FastAPI()
 
@@ -30,6 +31,7 @@ class Answer(BaseModel):
 @app.post(path="/apply_answers")
 def apply_answers(answers: list[Answer]):
     for answer in answers:
+        pass
 
         
 if __name__ == "__main__":
