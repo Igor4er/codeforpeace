@@ -73,5 +73,17 @@ def apply_answers(uanswers: UsrAns):
     return myd
 
 
+@app.get(path="/get_statistics")
+def get_statistics(user: str):
+    data = DBAnswer.get(user==user)
+    return {"well_being": data.well_being,
+    "physical_activity": data.physical_activity,
+    "stress": data.stress,
+    "social_connections": data.social_connections,
+    "work_and_studying": data.work_and_studying,
+    "month": data.date.month,
+    "day": data.date.day}
+
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
