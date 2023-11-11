@@ -1,346 +1,343 @@
-{
-    "questions": [
-
-        {
-        "category": "Work and Studying",
-        "question": "Як ви оцінюєте свій прогрес у вивченні?",
-        "answers": [
-            {"option": "Дуже успішно, я швидко засвоюю новий матеріал", "impact": {"workStudying": 2}},
-            {"option": "Нормально, але іноді виникають труднощі", "impact": {"workStudying": 1}},
-            {"option": "Середньо, мій прогрес не надто значний", "impact": {"workStudying": 0}},
-            {"option": "Не дуже успішно, я маю проблеми із засвоєнням матеріалу", "impact": {"workStudying": -1}},
-            {"option": "Погано, мої результати вивчення серйозно покращити", "impact": {"workStudying": -2}}
-        ]
-        },
-        {
-        "category": "Physical Activity",
-        "question": "Як часто ви займаєтеся фізичною активністю?",
-        "answers": [
-            {"option": "Регулярно, фізична активність - важлива частина мого життя", "impact": {"physicalActivity": 2}},
-            {"option": "Іноді, коли є бажання або час", "impact": {"physicalActivity": 1}},
-            {"option": "Рідко, але це мене не хвилює", "impact": {"physicalActivity": 0}},
-            {"option": "Майже не займаюся, але хотів би змінити цю ситуацію", "impact": {"physicalActivity": -1}},
-            {"option": "Зовсім не займаюся фізичною активністю, це мене тривожить", "impact": {"physicalActivity": -2}}
-        ]
-        },
-        {
-        "category": "Physical Activity",
-        "question": "Як часто ви включаєте фізичну активність у свою щоденну рутину?",
-        "answers": [
-            {"option": "Щодня, фізична активність - мій щоденний обов'язок", "impact": {"physicalActivity": 2}},
-            {"option": "Кілька разів на тиждень, намагаюся тримати активний режим", "impact": {"physicalActivity": 1}},
-            {"option": "Не часто, але іноді вдається включити фізичну активність", "impact": {"physicalActivity": 0}},
-            {"option": "Майже ніколи, мені складно знайти час для фізичних вправ", "impact": {"physicalActivity": -1}},
-            {"option": "Зовсім не займаюся фізичною активністю, це мене тривожить", "impact": {"physicalActivity": -2}}
-        ]
-        },
-        {
-        "category": "Physical Activity",
-        "question": "Як ви вважаєте, чи вистачає вам фізичної активності для підтримання здоров'я?",
-        "answers": [
-            {"option": "Так, я вірю, що моя фізична активність достатня", "impact": {"physicalActivity": 2}},
-            {"option": "Можливо, можна більше, але я стараюся", "impact": {"physicalActivity": 1}},
-            {"option": "Не впевнений/впевнена, чи достатньо, але не переймаюсь цим", "impact": {"physicalActivity": 0}},
-            {"option": "Мабуть, недостатньо, мені б хотілося більше рухатися", "impact": {"physicalActivity": -1}},
-            {"option": "Ні, моє низьке рівень фізичної активності турбує мене", "impact": {"physicalActivity": -2}}
-        ]
-        },
-        {
-        "category": "Physical Activity",
-        "question": "Чи є у вас конкретні фізичні цілі, які ви прагнете досягти?",
-        "answers": [
-            {"option": "Так, у мене є чітка програма для досягнення фізичних цілей", "impact": {"physicalActivity": 2}},
-            {"option": "Так, але мої цілі не зовсім конкретні", "impact": {"physicalActivity": 1}},
-            {"option": "Ні, я не визначив/визначила конкретних цілей у фізичній активності", "impact": {"physicalActivity": 0}},
-            {"option": "Майже ніколи не визначаю цілей, це не для мене", "impact": {"physicalActivity": -1}},
-            {"option": "Ні, і це мене турбує, бажаю встановити конкретні цілі", "impact": {"physicalActivity": -2}}
-        ]
-        },
-        {
-        "category": "Physical Activity",
-        "question": "Чи впливає ваша фізична активність на ваше емоційне самопочуття?",
-        "answers": [
-            {"option": "Так, фізична активність позитивно впливає на моє емоційне становище", "impact": {"physicalActivity": 2}},
-            {"option": "Іноді відчуваю покращення емоційного стану після фізичних вправ", "impact": {"physicalActivity": 1}},
-            {"option": "Не помічаю значущого впливу на емоційне самопочуття", "impact": {"physicalActivity": 0}},
-            {"option": "Іноді відчуваю себе гірше після фізичної активності", "impact": {"physicalActivity": -1}},
-            {"option": "Моя фізична активність взагалі не впливає на моє емоційне становище", "impact": {"physicalActivity": -2}}
-        ]
-        },
-        {
-        "category": "Physical Activity",
-        "question": "Як ви обираєте вид фізичної активності? Чи ви взагалі обираєте його?",
-        "answers": [
-            {"option": "Так, я обираю конкретні види фізичної активності, які мені подобаються", "impact": {"physicalActivity": 2}},
-            {"option": "Іноді, вибираю в залежності від настрою", "impact": {"physicalActivity": 1}},
-            {"option": "Не дуже, я роблю те, що вважаю необхідним", "impact": {"physicalActivity": 0}},
-            {"option": "Майже не обираю, просто роблю стандартні вправи", "impact": {"physicalActivity": -1}},
-            {"option": "Зовсім не обираю, це мене трошки турбує", "impact": {"physicalActivity": -2}}
-        ]
-        },
-        {
-        "category": "Relationships",
-        "question": "Як ви оцінюєте рівень близькості та розуміння у ваших взаємин з родиною?",
-        "answers": [
-            {"option": "Дуже високий, я відчуваю глибоку зв'язаність і розуміння", "impact": {"relationships": 2}},
-            {"option": "Нормальний, але є моменти, коли не вистачає розуміння", "impact": {"relationships": 1}},
-            {"option": "Середній, є взаєморозуміння, але не завжди", "impact": {"relationships": 0}},
-            {"option": "Низький, взаєморозуміння відсутнє часто", "impact": {"relationships": -1}},
-            {"option": "Дуже низький, у взаємин відчуваю відстань та непорозуміння", "impact": {"relationships": -2}}
-        ]
-        },
-        {
-        "category": "Relationships",
-        "question": "Як часто ви проводите час з родиною і як ви це сприймаєте?",
-        "answers": [
-            {"option": "Часто, і це приносить мені радість", "impact": {"relationships": 2}},
-            {"option": "Іноді, залежить від обставин", "impact": {"relationships": 1}},
-            {"option": "Рідко, але я це терплю", "impact": {"relationships": 0}},
-            {"option": "Майже ніколи, і це мене турбує", "impact": {"relationships": -1}},
-            {"option": "Зовсім не проводжу часу з родиною, це мене непокоїть", "impact": {"relationships": -2}}
-        ]
-        },
-        {
-        "category": "Relationships",
-        "question": "Як ви вирішуєте конфлікти або непорозуміння у ваших взаєминах?",
-        "answers": [
-            {"option": "Ефективно, знаходжу компроміс і шукаю рішення", "impact": {"relationships": 2}},
-            {"option": "Зазвичай, знаходжу спільний мовний контекст", "impact": {"relationships": 1}},
-            {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact": {"relationships": 0}},
-            {"option": "Рідко вирішую конфлікти, це мене турбує", "impact": {"relationships": -1}},
-            {"option": "Зовсім не вирішую конфлікти, це для мене проблема", "impact": {"relationships": -2}}
-        ]
-        },
-        {
-        "category": "Relationships",
-        "question": "Як ви визначаєте важливість довіри в вашій близькій оточенні?",
-        "answers": [
-            {"option": "Дуже важливо, довіра є основою моїх взаємин", "impact": {"relationships": 2}},
-            {"option": "Важливо, але іноді доводиться перевіряти", "impact": {"relationships": 1}},
-            {"option": "Середньо, довіра є, але не завжди на першому місці", "impact": {"relationships": 0}},
-            {"option": "Мало важливо, довіряю обмежено", "impact": {"relationships": -1}},
-            {"option": "Не важливо взагалі, я маю проблеми із довірою", "impact": {"relationships": -2}}
-        ]
-        },
-        {
-        "category": "Relationships",
-        "question": "Чи впливають ваші взаємини на ваше емоційне самопочуття?",
-        "answers": [
-            {"option": "Так, взаємини позитивно впливають на моє емоційне самопочуття", "impact": {"relationships": 2}},
-            {"option": "Іноді, взаємини мають змішаний вплив на мої емоції", "impact": {"relationships": 1}},
-            {"option": "Не завжди помічаю впливу взаємин на моє емоційне становище", "impact": {"relationships": 0}},
-            {"option": "Іноді взаємини викликають негативні емоції", "impact": {"relationships": -1}},
-            {"option": "Мої взаємини взагалі не впливають на моє емоційне становище", "impact": {"relationships": -2}}
-        ]
-        },
-        {
-        "category": "Work and Studying",
-        "question": "Як ви оцінюєте свій робочий або навчальний навантаження?",
-        "answers": [
-            {"option": "Дуже комфортно, я ефективно впораюсь із всіма завданнями", "impact": {"workAndStudying": 2}},
-            {"option": "Нормально, є виклики, але я їх переборюю", "impact": {"workAndStudying": 1}},
-            {"option": "Середньо, важко впоратися з усіма завданнями", "impact": {"workAndStudying": 0}},
-            {"option": "Складно, я не встигаю виконати багато завдань", "impact": {"workAndStudying": -1}},
-            {"option": "Дуже складно, робочий або навчальний тиск зависокий", "impact": {"workAndStudying": -2}}
-        ]
-        },
-        {
-        "category": "Work and Studying",
-        "question": "Як ви оцінюєте свій рівень продуктивності на роботі або в університеті?",
-        "answers": [
-            {"option": "Дуже високий, я завершую завдання швидко і якісно", "impact": {"workAndStudying": 2}},
-            {"option": "Високий, я ефективно виконую свої обов'язки", "impact": {"workAndStudying": 1}},
-            {"option": "Середній, я виконую завдання, але не завжди ідеально", "impact": {"workAndStudying": 0}},
-            {"option": "Низький, моя продуктивність може бути кращою", "impact": {"workAndStudying": -1}},
-            {"option": "Дуже низький, я маю серйозні труднощі із продуктивністю", "impact": {"workAndStudying": -2}}
-        ]
-        },
-        {
-        "category": "Work and Studying",
-        "question": "Як ви вирішуєте труднощі або виклики на роботі або в університеті?",
-        "answers": [
-            {"option": "Ефективно, знаходжу імовірні та розумні рішення", "impact": {"workAndStudying": 2}},
-            {"option": "Зазвичай, вирішую виклики, але іноді це займає час", "impact": {"workAndStudying": 1}},
-            {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact": {"workAndStudying": 0}},
-            {"option": "Рідко вирішую труднощі, це мене турбує", "impact": {"workAndStudying": -1}},
-            {"option": "Зовсім не вирішую труднощі, у мене проблеми із знаходженням рішень", "impact": {"workAndStudying": -2}}
-        ]
-        },
-        {
-        "category": "Work and Studying",
-        "question": "Як ви оцінюєте своє відношення до навчання чи роботи?",
-        "answers": [
-            {"option": "Дуже позитивно, я люблю те, чим займаюсь", "impact": {"workAndStudying": 2}},
-            {"option": "Позитивно, але іноді виникають труднощі", "impact": {"workAndStudying": 1}},
-            {"option": "Нейтрально, це просто частина мого життя", "impact": {"workAndStudying": 0}},
-            {"option": "Негативно, але я витримую через обставини", "impact": {"workAndStudying": -1}},
-            {"option": "Дуже негативно, робота чи навчання мене невдовзі виснажують", "impact": {"workAndStudying": -2}}
-        ]
-        },
-        {
-        "category": "Work and Studying",
-        "question": "Як часто ви відчуваєте стрес на роботі або в університеті?",
-        "answers": [
-            {"option": "Майже ніколи, я вмію ефективно впоратися зі стресом", "impact": {"workAndStudying": 2}},
-            {"option": "Іноді, але я вмію знаходити стресові витоки", "impact": {"workAndStudying": 1}},
-            {"option": "Спостерігається регулярно, але це мене не турбує", "impact": {"workAndStudying": 0}},
-            {"option": "Часто, і це впливає на мою ефективність", "impact": {"workAndStudying": -1}},
-            {"option": "Дуже часто, я маю серйозні проблеми зі стресом", "impact": {"workAndStudying": -2}}
-        ]
-        },
-        {
-        "category": "Well-being",
-        "question": "Як часто ви відчуваєте втомленість та безсилля?",
-        "answers": [
-            {"option": "Майже ніколи, я завжди повний/повна енергії", "impact": {"wellBeing": 2}},
-            {"option": "Іноді, але це не впливає серйозно на моє самопочуття", "impact": {"wellBeing": 1}},
-            {"option": "Регулярно, але я продовжую виконувати свої обов'язки", "impact": {"wellBeing": 0}},
-            {"option": "Часто, і це впливає на мою продуктивність", "impact": {"wellBeing": -1}},
-            {"option": "Дуже часто, я відчуваю себе фізично і емоційно виснаженим/виснаженою", "impact": {"wellBeing": -2}}
-        ]
-        },
-        {
-        "category": "Well-being",
-        "question": "Як ви оцінюєте свій сон та відновлення сил?",
-        "answers": [
-            {"option": "Дуже добре, я завжди відпочиваю на повну катушку", "impact": {"wellBeing": 2}},
-            {"option": "Нормально, але іноді є проблеми з якістю сну", "impact": {"wellBeing": 1}},
-            {"option": "Середньо, мій сон може покращитися", "impact": {"wellBeing": 0}},
-            {"option": "Не дуже добре, я часто відчуваю сонливість вдень", "impact": {"wellBeing": -1}},
-            {"option": "Погано, мій сон суттєво впливає на моє здоров'я", "impact": {"wellBeing": -2}}
-        ]
-        },
-        {
-        "category": "Well-being",
-        "question": "Як ви відноситесь до свого фізичного здоров'я?",
-        "answers": [
-            {"option": "Дуже позитивно, я дбаю про своє фізичне здоров'я", "impact": {"wellBeing": 2}},
-            {"option": "Позитивно, але іноді заняттями спортом займаюсь не регулярно", "impact": {"wellBeing": 1}},
-            {"option": "Нейтрально, я не завжди слідкую за своїм фізичним здоров'ям", "impact": {"wellBeing": 0}},
-            {"option": "Негативно, моє фізичне здоров'я потребує уваги", "impact": {"wellBeing": -1}},
-            {"option": "Дуже негативно, моє фізичне здоров'я в серйозних проблемах", "impact": {"wellBeing": -2}}
-        ]
-        },
-        {
-        "category": "Well-being",
-        "question": "Як часто ви відчуваєте радість та задоволення від життя?",
-        "answers": [
-            {"option": "Дуже часто, я насолоджуюсь кожним моментом", "impact": {"wellBeing": 2}},
-            {"option": "Часто, але іноді є моменти невдоволення", "impact": {"wellBeing": 1}},
-            {"option": "Зазвичай нейтрально, моє життя не занадто яскраве або тьмяне", "impact": {"wellBeing": 0}},
-            {"option": "Рідко, багато чого не вистачає для задоволення", "impact": {"wellBeing": -1}},
-            {"option": "Дуже рідко, я відчуваю себе нещасним/нещасною", "impact": {"wellBeing": -2}}
-        ]
-        },
-        {
-        "category": "Well-being",
-        "question": "Як ви відноситесь до своїх емоцій та стресу в повсякденному житті?",
-        "answers": [
-            {"option": "Дуже позитивно, я вмію ефективно управляти своїми емоціями та стресом", "impact": {"wellBeing": 2}},
-            {"option": "Позитивно, але іноді мої емоції виходять із-під контролю", "impact": {"wellBeing": 1}},
-            {"option": "Середньо, я зазвичай управляю своїми емоціями, але не завжди", "impact": {"wellBeing": 0}},
-            {"option": "Негативно, я важко справляюсь із стресом та емоціями", "impact": {"wellBeing": -1}},
-            {"option": "Дуже негативно, мої емоції і стрес мають серйозний вплив на моє життя", "impact": {"wellBeing": -2}}
-        ]
-        },
-        {
-        "category": "Social Connections",
-        "question": "Як часто ви спілкуєтеся з друзями або колегами поза робочим чи навчальним середовищем?",
-        "answers": [
-            {"option": "Часто, я часто проводжу час з друзями або колегами", "impact": {"socialConnections": 2}},
-            {"option": "Іноді, залежить від обставин або настрою", "impact": {"socialConnections": 1}},
-            {"option": "Рідко, але іноді намагаюся спілкуватися за межами роботи або навчання", "impact": {"socialConnections": 0}},
-            {"option": "Майже ніколи, мені складно знайти час для соціальних зустрічей", "impact": {"socialConnections": -1}},
-            {"option": "Зовсім не спілкуюся з друзями чи колегами за межами робочого чи навчального процесу", "impact": {"socialConnections": -2}}
-        ]
-        },
-        {
-        "category": "Social Connections",
-        "question": "Як ви відноситесь до нових знайомств і розширення свого соціального кола?",
-        "answers": [
-            {"option": "Позитивно, я завжди відкритий/відкрита для нових знайомств", "impact": {"socialConnections": 2}},
-            {"option": "Зазвичай позитивно, але іноді важко налагоджувати нові зв'язки", "impact": {"socialConnections": 1}},
-            {"option": "Нейтрально, мені байдуже до розширення свого соціального кола", "impact": {"socialConnections": 0}},
-            {"option": "Негативно, я рідко шукаю нові знайомства", "impact": {"socialConnections": -1}},
-            {"option": "Дуже негативно, нові знайомства мене лякають", "impact": {"socialConnections": -2}}
-        ]
-        },
-        {
-        "category": "Social Connections",
-        "question": "Як важливо для вас мати близькі соціальні зв'язки у вашому житті?",
-        "answers": [
-            {"option": "Дуже важливо, мої соціальні зв'язки - це основа мого щастя", "impact": {"socialConnections": 2}},
-            {"option": "Важливо, але іноді мені потрібен час для самотньої діяльності", "impact": {"socialConnections": 1}},
-            {"option": "Середньо, я не дуже залежу від соціальних зв'язків", "impact": {"socialConnections": 0}},
-            {"option": "Мало важливо, я впораюсь із життям без сильних соціальних зв'язків", "impact": {"socialConnections": -1}},
-            {"option": "Зовсім не важливо, я віддаю перевагу самотності", "impact": {"socialConnections": -2}}
-        ]
-        },
-        {
-        "category": "Social Connections",
-        "question": "Як ви вирішуєте конфлікти чи непорозуміння у ваших соціальних взаєминах?",
-        "answers": [
-            {"option": "Ефективно, знаходжу компроміс і шукаю рішення", "impact": {"socialConnections": 2}},
-            {"option": "Зазвичай, знаходжу спільний мовний контекст", "impact": {"socialConnections": 1}},
-            {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact": {"socialConnections": 0}},
-            {"option": "Рідко вирішую конфлікти, це мене турбує", "impact": {"socialConnections": -1}},
-            {"option": "Зовсім не вирішую конфлікти, це для мене проблема", "impact": {"socialConnections": -2}}
-        ]
-        },
-        {
-        "category": "Stress",
-        "question": "Як часто ви відчуваєте стрес в повсякденному житті?",
-        "answers": [
-            {"option": "Майже ніколи, я вмію ефективно впоратися зі стресом", "impact": {"stress": 2}},
-            {"option": "Іноді, але я знаходжу способи знімати стрес", "impact": {"stress": 1}},
-            {"option": "Спостерігається регулярно, але це мене не турбує", "impact": {"stress": 0}},
-            {"option": "Часто, і це впливає на моє фізичне та емоційне самопочуття", "impact": {"stress": -1}},
-            {"option": "Дуже часто, я маю серйозні проблеми із стресом", "impact": {"stress": -2}}
-        ]
-        },
-        {
-        "category": "Stress",
-        "question": "Як ви реагуєте на стресові ситуації?",
-        "answers": [
-            {"option": "Ефективно, шукаю конструктивні вирішення проблем", "impact": {"stress": 2}},
-            {"option": "Зазвичай, знаходжу способи зняти напругу і зосередитися", "impact": {"stress": 1}},
-            {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact": {"stress": 0}},
-            {"option": "Рідко впораюсь із стресом, це мене турбує", "impact": {"stress": -1}},
-            {"option": "Зовсім не впораюсь із стресом, я не знаю, як вирішити проблеми", "impact": {"stress": -2}}
-        ]
-        },
-        {
-        "category": "Stress",
-        "question": "Як ви визначаєте ситуації, які викликають у вас стрес?",
-        "answers": [
-            {"option": "Мало ситуацій, які викликають у мене стрес, я добре справляюсь з труднощами", "impact": {"stress": 2}},
-            {"option": "Є деякі ситуації, які мене стресують, але я вмію з ними радитись", "impact": {"stress": 1}},
-            {"option": "Середньо, іноді мене стресують незначні труднощі", "impact": {"stress": 0}},
-            {"option": "Багато ситуацій, які викликають у мене стрес, це мене турбує", "impact": {"stress": -1}},
-            {"option": "Більшість ситуацій, навіть незначні, викликають у мене стрес, я не впораюсь із цим", "impact": {"stress": -2}}
-        ]
-        },
-        {
-        "category": "Stress",
-        "question": "Як ви впораєтеся із стресом під час періодів великої навантаженості чи непередбачених обставин?",
-        "answers": [
-            {"option": "Добре, я використовую стрес як стимул для досягнення цілей", "impact": {"stress": 2}},
-            {"option": "Зазвичай, знаходжу стратегії для зниження стресу в таких ситуаціях", "impact": {"stress": 1}},
-            {"option": "Не завжди успішно, але стараюся зберігати спокій", "impact": {"stress": 0}},
-            {"option": "Рідко впораюсь із стресом у великі навантажені періоди", "impact": {"stress": -1}},
-            {"option": "Зовсім не впораюсь із стресом, великі навантаження завдають мені серйозних проблем", "impact": {"stress": -2}}
-        ]
-        },
-        {
-        "category": "Stress",
-        "question": "Як ви визначаєте, коли стрес стає надто великим для вас?",
-        "answers": [
-            {"option": "Мало коли, я вмію ефективно контролювати свій стрес", "impact": {"stress": 2}},
-            {"option": "Іноді, коли я відчуваю, що не встигаю впоратися із ситуацією", "impact": {"stress": 1}},
-            {"option": "Середньо, мені потрібно додатковий час для відновлення", "impact": {"stress": 0}},
-            {"option": "Часто, коли стрес впливає на моє фізичне та емоційне здоров'я", "impact": {"stress": -1}},
-            {"option": "Більшість часу, я не впораюсь із стресом і він сильно впливає на моє життя", "impact": {"stress": -2}}
-        ]
-        }
+[
+    {
+    "category": "Work and Studying",
+    "question": "Як ви оцінюєте свій прогрес у вивченні?",
+    "answers": [
+        {"option": "Дуже успішно, я швидко засвоюю новий матеріал", "impact_on": "workStudying", "impact": 2},
+        {"option": "Нормально, але іноді виникають труднощі", "impact_on": "workStudying", "impact": 1},
+        {"option": "Середньо, мій прогрес не надто значний", "impact_on": "workStudying", "impact": 0},
+        {"option": "Не дуже успішно, я маю проблеми із засвоєнням матеріалу", "impact_on": "workStudying", "impact": -1},
+        {"option": "Погано, мої результати вивчення серйозно покращити", "impact_on": "workStudying", "impact": -2}
     ]
-}
+    },
+    {
+    "category": "Physical Activity",
+    "question": "Як часто ви займаєтеся фізичною активністю?",
+    "answers": [
+        {"option": "Регулярно, фізична активність - важлива частина мого життя", "impact_on": "physicalActivity", "impact": 2},
+        {"option": "Іноді, коли є бажання або час", "impact_on": "physicalActivity", "impact": 1},
+        {"option": "Рідко, але це мене не хвилює", "impact_on": "physicalActivity", "impact": 0},
+        {"option": "Майже не займаюся, але хотів би змінити цю ситуацію", "impact_on": "physicalActivity", "impact": -1},
+        {"option": "Зовсім не займаюся фізичною активністю, це мене тривожить", "impact_on": "physicalActivity", "impact": -2}
+    ]
+    },
+    {
+    "category": "Physical Activity",
+    "question": "Як часто ви включаєте фізичну активність у свою щоденну рутину?",
+    "answers": [
+        {"option": "Щодня, фізична активність - мій щоденний обов'язок", "impact_on": "physicalActivity", "impact": 2},
+        {"option": "Кілька разів на тиждень, намагаюся тримати активний режим", "impact_on": "physicalActivity", "impact": 1},
+        {"option": "Не часто, але іноді вдається включити фізичну активність", "impact_on": "physicalActivity", "impact": 0},
+        {"option": "Майже ніколи, мені складно знайти час для фізичних вправ", "impact_on": "physicalActivity", "impact": -1},
+        {"option": "Зовсім не займаюся фізичною активністю, це мене тривожить", "impact_on": "physicalActivity", "impact": -2}
+    ]
+    },
+    {
+    "category": "Physical Activity",
+    "question": "Як ви вважаєте, чи вистачає вам фізичної активності для підтримання здоров'я?",
+    "answers": [
+        {"option": "Так, я вірю, що моя фізична активність достатня", "impact_on": "physicalActivity", "impact": 2},
+        {"option": "Можливо, можна більше, але я стараюся", "impact_on": "physicalActivity", "impact": 1},
+        {"option": "Не впевнений/впевнена, чи достатньо, але не переймаюсь цим", "impact_on": "physicalActivity", "impact": 0},
+        {"option": "Мабуть, недостатньо, мені б хотілося більше рухатися", "impact_on": "physicalActivity", "impact": -1},
+        {"option": "Ні, моє низьке рівень фізичної активності турбує мене", "impact_on": "physicalActivity", "impact": -2}
+    ]
+    },
+    {
+    "category": "Physical Activity",
+    "question": "Чи є у вас конкретні фізичні цілі, які ви прагнете досягти?",
+    "answers": [
+        {"option": "Так, у мене є чітка програма для досягнення фізичних цілей", "impact_on": "physicalActivity", "impact": 2},
+        {"option": "Так, але мої цілі не зовсім конкретні", "impact_on": "physicalActivity", "impact": 1},
+        {"option": "Ні, я не визначив/визначила конкретних цілей у фізичній активності", "impact_on": "physicalActivity", "impact": 0},
+        {"option": "Майже ніколи не визначаю цілей, це не для мене", "impact_on": "physicalActivity", "impact": -1},
+        {"option": "Ні, і це мене турбує, бажаю встановити конкретні цілі", "impact_on": "physicalActivity", "impact": -2}
+    ]
+    },
+    {
+    "category": "Physical Activity",
+    "question": "Чи впливає ваша фізична активність на ваше емоційне самопочуття?",
+    "answers": [
+        {"option": "Так, фізична активність позитивно впливає на моє емоційне становище", "impact_on": "physicalActivity", "impact": 2},
+        {"option": "Іноді відчуваю покращення емоційного стану після фізичних вправ", "impact_on": "physicalActivity", "impact": 1},
+        {"option": "Не помічаю значущого впливу на емоційне самопочуття", "impact_on": "physicalActivity", "impact": 0},
+        {"option": "Іноді відчуваю себе гірше після фізичної активності", "impact_on": "physicalActivity", "impact": -1},
+        {"option": "Моя фізична активність взагалі не впливає на моє емоційне становище", "impact_on": "physicalActivity", "impact": -2}
+    ]
+    },
+    {
+    "category": "Physical Activity",
+    "question": "Як ви обираєте вид фізичної активності? Чи ви взагалі обираєте його?",
+    "answers": [
+        {"option": "Так, я обираю конкретні види фізичної активності, які мені подобаються", "impact_on": "physicalActivity", "impact": 2},
+        {"option": "Іноді, вибираю в залежності від настрою", "impact_on": "physicalActivity", "impact": 1},
+        {"option": "Не дуже, я роблю те, що вважаю необхідним", "impact_on": "physicalActivity", "impact": 0},
+        {"option": "Майже не обираю, просто роблю стандартні вправи", "impact_on": "physicalActivity", "impact": -1},
+        {"option": "Зовсім не обираю, це мене трошки турбує", "impact_on": "physicalActivity", "impact": -2}
+    ]
+    },
+    {
+    "category": "Relationships",
+    "question": "Як ви оцінюєте рівень близькості та розуміння у ваших взаємин з родиною?",
+    "answers": [
+        {"option": "Дуже високий, я відчуваю глибоку зв'язаність і розуміння", "impact_on": "relationships", "impact": 2},
+        {"option": "Нормальний, але є моменти, коли не вистачає розуміння", "impact_on": "relationships", "impact": 1},
+        {"option": "Середній, є взаєморозуміння, але не завжди", "impact_on": "relationships", "impact": 0},
+        {"option": "Низький, взаєморозуміння відсутнє часто", "impact_on": "relationships", "impact": -1},
+        {"option": "Дуже низький, у взаємин відчуваю відстань та непорозуміння", "impact_on": "relationships", "impact": -2}
+    ]
+    },
+    {
+    "category": "Relationships",
+    "question": "Як часто ви проводите час з родиною і як ви це сприймаєте?",
+    "answers": [
+        {"option": "Часто, і це приносить мені радість", "impact_on": "relationships", "impact": 2},
+        {"option": "Іноді, залежить від обставин", "impact_on": "relationships", "impact": 1},
+        {"option": "Рідко, але я це терплю", "impact_on": "relationships", "impact": 0},
+        {"option": "Майже ніколи, і це мене турбує", "impact_on": "relationships", "impact": -1},
+        {"option": "Зовсім не проводжу часу з родиною, це мене непокоїть", "impact_on": "relationships", "impact": -2}
+    ]
+    },
+    {
+    "category": "Relationships",
+    "question": "Як ви вирішуєте конфлікти або непорозуміння у ваших взаєминах?",
+    "answers": [
+        {"option": "Ефективно, знаходжу компроміс і шукаю рішення", "impact_on": "relationships", "impact": 2},
+        {"option": "Зазвичай, знаходжу спільний мовний контекст", "impact_on": "relationships", "impact": 1},
+        {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact_on": "relationships", "impact": 0},
+        {"option": "Рідко вирішую конфлікти, це мене турбує", "impact_on": "relationships", "impact": -1},
+        {"option": "Зовсім не вирішую конфлікти, це для мене проблема", "impact_on": "relationships", "impact": -2}
+    ]
+    },
+    {
+    "category": "Relationships",
+    "question": "Як ви визначаєте важливість довіри в вашій близькій оточенні?",
+    "answers": [
+        {"option": "Дуже важливо, довіра є основою моїх взаємин", "impact_on": "relationships", "impact": 2},
+        {"option": "Важливо, але іноді доводиться перевіряти", "impact_on": "relationships", "impact": 1},
+        {"option": "Середньо, довіра є, але не завжди на першому місці", "impact_on": "relationships", "impact": 0},
+        {"option": "Мало важливо, довіряю обмежено", "impact_on": "relationships", "impact": -1},
+        {"option": "Не важливо взагалі, я маю проблеми із довірою", "impact_on": "relationships", "impact": -2}
+    ]
+    },
+    {
+    "category": "Relationships",
+    "question": "Чи впливають ваші взаємини на ваше емоційне самопочуття?",
+    "answers": [
+        {"option": "Так, взаємини позитивно впливають на моє емоційне самопочуття", "impact_on": "relationships", "impact": 2},
+        {"option": "Іноді, взаємини мають змішаний вплив на мої емоції", "impact_on": "relationships", "impact": 1},
+        {"option": "Не завжди помічаю впливу взаємин на моє емоційне становище", "impact_on": "relationships", "impact": 0},
+        {"option": "Іноді взаємини викликають негативні емоції", "impact_on": "relationships", "impact": -1},
+        {"option": "Мої взаємини взагалі не впливають на моє емоційне становище", "impact_on": "relationships", "impact": -2}
+    ]
+    },
+    {
+    "category": "Work and Studying",
+    "question": "Як ви оцінюєте свій робочий або навчальний навантаження?",
+    "answers": [
+        {"option": "Дуже комфортно, я ефективно впораюсь із всіма завданнями", "impact_on": "workAndStudying", "impact": 2},
+        {"option": "Нормально, є виклики, але я їх переборюю", "impact_on": "workAndStudying", "impact": 1},
+        {"option": "Середньо, важко впоратися з усіма завданнями", "impact_on": "workAndStudying", "impact": 0},
+        {"option": "Складно, я не встигаю виконати багато завдань", "impact_on": "workAndStudying", "impact": -1},
+        {"option": "Дуже складно, робочий або навчальний тиск зависокий", "impact_on": "workAndStudying", "impact": -2}
+    ]
+    },
+    {
+    "category": "Work and Studying",
+    "question": "Як ви оцінюєте свій рівень продуктивності на роботі або в університеті?",
+    "answers": [
+        {"option": "Дуже високий, я завершую завдання швидко і якісно", "impact_on": "workAndStudying", "impact": 2},
+        {"option": "Високий, я ефективно виконую свої обов'язки", "impact_on": "workAndStudying", "impact": 1},
+        {"option": "Середній, я виконую завдання, але не завжди ідеально", "impact_on": "workAndStudying", "impact": 0},
+        {"option": "Низький, моя продуктивність може бути кращою", "impact_on": "workAndStudying", "impact": -1},
+        {"option": "Дуже низький, я маю серйозні труднощі із продуктивністю", "impact_on": "workAndStudying", "impact": -2}
+    ]
+    },
+    {
+    "category": "Work and Studying",
+    "question": "Як ви вирішуєте труднощі або виклики на роботі або в університеті?",
+    "answers": [
+        {"option": "Ефективно, знаходжу імовірні та розумні рішення", "impact_on": "workAndStudying", "impact": 2},
+        {"option": "Зазвичай, вирішую виклики, але іноді це займає час", "impact_on": "workAndStudying", "impact": 1},
+        {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact_on": "workAndStudying", "impact": 0},
+        {"option": "Рідко вирішую труднощі, це мене турбує", "impact_on": "workAndStudying", "impact": -1},
+        {"option": "Зовсім не вирішую труднощі, у мене проблеми із знаходженням рішень", "impact_on": "workAndStudying", "impact": -2}
+    ]
+    },
+    {
+    "category": "Work and Studying",
+    "question": "Як ви оцінюєте своє відношення до навчання чи роботи?",
+    "answers": [
+        {"option": "Дуже позитивно, я люблю те, чим займаюсь", "impact_on": "workAndStudying", "impact": 2},
+        {"option": "Позитивно, але іноді виникають труднощі", "impact_on": "workAndStudying", "impact": 1},
+        {"option": "Нейтрально, це просто частина мого життя", "impact_on": "workAndStudying", "impact": 0},
+        {"option": "Негативно, але я витримую через обставини", "impact_on": "workAndStudying", "impact": -1},
+        {"option": "Дуже негативно, робота чи навчання мене невдовзі виснажують", "impact_on": "workAndStudying", "impact": -2}
+    ]
+    },
+    {
+    "category": "Work and Studying",
+    "question": "Як часто ви відчуваєте стрес на роботі або в університеті?",
+    "answers": [
+        {"option": "Майже ніколи, я вмію ефективно впоратися зі стресом", "impact_on": "workAndStudying", "impact": 2},
+        {"option": "Іноді, але я вмію знаходити стресові витоки", "impact_on": "workAndStudying", "impact": 1},
+        {"option": "Спостерігається регулярно, але це мене не турбує", "impact_on": "workAndStudying", "impact": 0},
+        {"option": "Часто, і це впливає на мою ефективність", "impact_on": "workAndStudying", "impact": -1},
+        {"option": "Дуже часто, я маю серйозні проблеми зі стресом", "impact_on": "workAndStudying", "impact": -2}
+    ]
+    },
+    {
+    "category": "Well-being",
+    "question": "Як часто ви відчуваєте втомленість та безсилля?",
+    "answers": [
+        {"option": "Майже ніколи, я завжди повний/повна енергії", "impact_on": "wellBeing", "impact": 2},
+        {"option": "Іноді, але це не впливає серйозно на моє самопочуття", "impact_on": "wellBeing", "impact": 1},
+        {"option": "Регулярно, але я продовжую виконувати свої обов'язки", "impact_on": "wellBeing", "impact": 0},
+        {"option": "Часто, і це впливає на мою продуктивність", "impact_on": "wellBeing", "impact": -1},
+        {"option": "Дуже часто, я відчуваю себе фізично і емоційно виснаженим/виснаженою", "impact_on": "wellBeing", "impact": -2}
+    ]
+    },
+    {
+    "category": "Well-being",
+    "question": "Як ви оцінюєте свій сон та відновлення сил?",
+    "answers": [
+        {"option": "Дуже добре, я завжди відпочиваю на повну катушку", "impact_on": "wellBeing", "impact": 2},
+        {"option": "Нормально, але іноді є проблеми з якістю сну", "impact_on": "wellBeing", "impact": 1},
+        {"option": "Середньо, мій сон може покращитися", "impact_on": "wellBeing", "impact": 0},
+        {"option": "Не дуже добре, я часто відчуваю сонливість вдень", "impact_on": "wellBeing", "impact": -1},
+        {"option": "Погано, мій сон суттєво впливає на моє здоров'я", "impact_on": "wellBeing", "impact": -2}
+    ]
+    },
+    {
+    "category": "Well-being",
+    "question": "Як ви відноситесь до свого фізичного здоров'я?",
+    "answers": [
+        {"option": "Дуже позитивно, я дбаю про своє фізичне здоров'я", "impact_on": "wellBeing", "impact": 2},
+        {"option": "Позитивно, але іноді заняттями спортом займаюсь не регулярно", "impact_on": "wellBeing", "impact": 1},
+        {"option": "Нейтрально, я не завжди слідкую за своїм фізичним здоров'ям", "impact_on": "wellBeing", "impact": 0},
+        {"option": "Негативно, моє фізичне здоров'я потребує уваги", "impact_on": "wellBeing", "impact": -1},
+        {"option": "Дуже негативно, моє фізичне здоров'я в серйозних проблемах", "impact_on": "wellBeing", "impact": -2}
+    ]
+    },
+    {
+    "category": "Well-being",
+    "question": "Як часто ви відчуваєте радість та задоволення від життя?",
+    "answers": [
+        {"option": "Дуже часто, я насолоджуюсь кожним моментом", "impact_on": "wellBeing", "impact": 2},
+        {"option": "Часто, але іноді є моменти невдоволення", "impact_on": "wellBeing", "impact": 1},
+        {"option": "Зазвичай нейтрально, моє життя не занадто яскраве або тьмяне", "impact_on": "wellBeing", "impact": 0},
+        {"option": "Рідко, багато чого не вистачає для задоволення", "impact_on": "wellBeing", "impact": -1},
+        {"option": "Дуже рідко, я відчуваю себе нещасним/нещасною", "impact_on": "wellBeing", "impact": -2}
+    ]
+    },
+    {
+    "category": "Well-being",
+    "question": "Як ви відноситесь до своїх емоцій та стресу в повсякденному житті?",
+    "answers": [
+        {"option": "Дуже позитивно, я вмію ефективно управляти своїми емоціями та стресом", "impact_on": "wellBeing", "impact": 2},
+        {"option": "Позитивно, але іноді мої емоції виходять із-під контролю", "impact_on": "wellBeing", "impact": 1},
+        {"option": "Середньо, я зазвичай управляю своїми емоціями, але не завжди", "impact_on": "wellBeing", "impact": 0},
+        {"option": "Негативно, я важко справляюсь із стресом та емоціями", "impact_on": "wellBeing", "impact": -1},
+        {"option": "Дуже негативно, мої емоції і стрес мають серйозний вплив на моє життя", "impact_on": "wellBeing", "impact": -2}
+    ]
+    },
+    {
+    "category": "Social Connections",
+    "question": "Як часто ви спілкуєтеся з друзями або колегами поза робочим чи навчальним середовищем?",
+    "answers": [
+        {"option": "Часто, я часто проводжу час з друзями або колегами", "impact_on": "socialConnections", "impact": 2},
+        {"option": "Іноді, залежить від обставин або настрою", "impact_on": "socialConnections", "impact": 1},
+        {"option": "Рідко, але іноді намагаюся спілкуватися за межами роботи або навчання", "impact_on": "socialConnections", "impact": 0},
+        {"option": "Майже ніколи, мені складно знайти час для соціальних зустрічей", "impact_on": "socialConnections", "impact": -1},
+        {"option": "Зовсім не спілкуюся з друзями чи колегами за межами робочого чи навчального процесу", "impact_on": "socialConnections", "impact": -2}
+    ]
+    },
+    {
+    "category": "Social Connections",
+    "question": "Як ви відноситесь до нових знайомств і розширення свого соціального кола?",
+    "answers": [
+        {"option": "Позитивно, я завжди відкритий/відкрита для нових знайомств", "impact_on": "socialConnections", "impact": 2},
+        {"option": "Зазвичай позитивно, але іноді важко налагоджувати нові зв'язки", "impact_on": "socialConnections", "impact": 1},
+        {"option": "Нейтрально, мені байдуже до розширення свого соціального кола", "impact_on": "socialConnections", "impact": 0},
+        {"option": "Негативно, я рідко шукаю нові знайомства", "impact_on": "socialConnections", "impact": -1},
+        {"option": "Дуже негативно, нові знайомства мене лякають", "impact_on": "socialConnections", "impact": -2}
+    ]
+    },
+    {
+    "category": "Social Connections",
+    "question": "Як важливо для вас мати близькі соціальні зв'язки у вашому житті?",
+    "answers": [
+        {"option": "Дуже важливо, мої соціальні зв'язки - це основа мого щастя", "impact_on": "socialConnections", "impact": 2},
+        {"option": "Важливо, але іноді мені потрібен час для самотньої діяльності", "impact_on": "socialConnections", "impact": 1},
+        {"option": "Середньо, я не дуже залежу від соціальних зв'язків", "impact_on": "socialConnections", "impact": 0},
+        {"option": "Мало важливо, я впораюсь із життям без сильних соціальних зв'язків", "impact_on": "socialConnections", "impact": -1},
+        {"option": "Зовсім не важливо, я віддаю перевагу самотності", "impact_on": "socialConnections", "impact": -2}
+    ]
+    },
+    {
+    "category": "Social Connections",
+    "question": "Як ви вирішуєте конфлікти чи непорозуміння у ваших соціальних взаєминах?",
+    "answers": [
+        {"option": "Ефективно, знаходжу компроміс і шукаю рішення", "impact_on": "socialConnections", "impact": 2},
+        {"option": "Зазвичай, знаходжу спільний мовний контекст", "impact_on": "socialConnections", "impact": 1},
+        {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact_on": "socialConnections", "impact": 0},
+        {"option": "Рідко вирішую конфлікти, це мене турбує", "impact_on": "socialConnections", "impact": -1},
+        {"option": "Зовсім не вирішую конфлікти, це для мене проблема", "impact_on": "socialConnections", "impact": -2}
+    ]
+    },
+    {
+    "category": "Stress",
+    "question": "Як часто ви відчуваєте стрес в повсякденному житті?",
+    "answers": [
+        {"option": "Майже ніколи, я вмію ефективно впоратися зі стресом", "impact_on": "stress", "impact": 2},
+        {"option": "Іноді, але я знаходжу способи знімати стрес", "impact_on": "stress", "impact": 1},
+        {"option": "Спостерігається регулярно, але це мене не турбує", "impact_on": "stress", "impact": 0},
+        {"option": "Часто, і це впливає на моє фізичне та емоційне самопочуття", "impact_on": "stress", "impact": -1},
+        {"option": "Дуже часто, я маю серйозні проблеми із стресом", "impact_on": "stress", "impact": -2}
+    ]
+    },
+    {
+    "category": "Stress",
+    "question": "Як ви реагуєте на стресові ситуації?",
+    "answers": [
+        {"option": "Ефективно, шукаю конструктивні вирішення проблем", "impact_on": "stress", "impact": 2},
+        {"option": "Зазвичай, знаходжу способи зняти напругу і зосередитися", "impact_on": "stress", "impact": 1},
+        {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact_on": "stress", "impact": 0},
+        {"option": "Рідко впораюсь із стресом, це мене турбує", "impact_on": "stress", "impact": -1},
+        {"option": "Зовсім не впораюсь із стресом, я не знаю, як вирішити проблеми", "impact_on": "stress", "impact": -2}
+    ]
+    },
+    {
+    "category": "Stress",
+    "question": "Як ви визначаєте ситуації, які викликають у вас стрес?",
+    "answers": [
+        {"option": "Мало ситуацій, які викликають у мене стрес, я добре справляюсь з труднощами", "impact_on": "stress", "impact": 2},
+        {"option": "Є деякі ситуації, які мене стресують, але я вмію з ними радитись", "impact_on": "stress", "impact": 1},
+        {"option": "Середньо, іноді мене стресують незначні труднощі", "impact_on": "stress", "impact": 0},
+        {"option": "Багато ситуацій, які викликають у мене стрес, це мене турбує", "impact_on": "stress", "impact": -1},
+        {"option": "Більшість ситуацій, навіть незначні, викликають у мене стрес, я не впораюсь із цим", "impact_on": "stress", "impact": -2}
+    ]
+    },
+    {
+    "category": "Stress",
+    "question": "Як ви впораєтеся із стресом під час періодів великої навантаженості чи непередбачених обставин?",
+    "answers": [
+        {"option": "Добре, я використовую стрес як стимул для досягнення цілей", "impact_on": "stress", "impact": 2},
+        {"option": "Зазвичай, знаходжу стратегії для зниження стресу в таких ситуаціях", "impact_on": "stress", "impact": 1},
+        {"option": "Не завжди успішно, але стараюся зберігати спокій", "impact_on": "stress", "impact": 0},
+        {"option": "Рідко впораюсь із стресом у великі навантажені періоди", "impact_on": "stress", "impact": -1},
+        {"option": "Зовсім не впораюсь із стресом, великі навантаження завдають мені серйозних проблем", "impact_on": "stress", "impact": -2}
+    ]
+    },
+    {
+    "category": "Stress",
+    "question": "Як ви визначаєте, коли стрес стає надто великим для вас?",
+    "answers": [
+        {"option": "Мало коли, я вмію ефективно контролювати свій стрес", "impact_on": "stress", "impact": 2},
+        {"option": "Іноді, коли я відчуваю, що не встигаю впоратися із ситуацією", "impact_on": "stress", "impact": 1},
+        {"option": "Середньо, мені потрібно додатковий час для відновлення", "impact_on": "stress", "impact": 0},
+        {"option": "Часто, коли стрес впливає на моє фізичне та емоційне здоров'я", "impact_on": "stress", "impact": -1},
+        {"option": "Більшість часу, я не впораюсь із стресом і він сильно впливає на моє життя", "impact_on": "stress", "impact": -2}
+    ]
+    }
+]
