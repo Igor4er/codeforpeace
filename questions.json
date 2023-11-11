@@ -1,6 +1,6 @@
 [
     {
-    "category": "Work and Studying",
+    "category": "workAndStudying",
     "question": "Як ви оцінюєте свій прогрес у вивченні?",
     "answers": [
         {"option": "Дуже успішно, я швидко засвоюю новий матеріал", "impact_on": "workStudying", "impact": 2},
@@ -11,7 +11,7 @@
     ]
     },
     {
-    "category": "Physical Activity",
+    "category": "physicalActivity",
     "question": "Як часто ви займаєтеся фізичною активністю?",
     "answers": [
         {"option": "Регулярно, фізична активність - важлива частина мого життя", "impact_on": "physicalActivity", "impact": 2},
@@ -22,7 +22,7 @@
     ]
     },
     {
-    "category": "Physical Activity",
+    "category": "physicalActivity",
     "question": "Як часто ви включаєте фізичну активність у свою щоденну рутину?",
     "answers": [
         {"option": "Щодня, фізична активність - мій щоденний обов'язок", "impact_on": "physicalActivity", "impact": 2},
@@ -33,7 +33,7 @@
     ]
     },
     {
-    "category": "Physical Activity",
+    "category": "physicalActivity",
     "question": "Як ви вважаєте, чи вистачає вам фізичної активності для підтримання здоров'я?",
     "answers": [
         {"option": "Так, я вірю, що моя фізична активність достатня", "impact_on": "physicalActivity", "impact": 2},
@@ -44,7 +44,7 @@
     ]
     },
     {
-    "category": "Physical Activity",
+    "category": "physicalActivity",
     "question": "Чи є у вас конкретні фізичні цілі, які ви прагнете досягти?",
     "answers": [
         {"option": "Так, у мене є чітка програма для досягнення фізичних цілей", "impact_on": "physicalActivity", "impact": 2},
@@ -55,7 +55,7 @@
     ]
     },
     {
-    "category": "Physical Activity",
+    "category": "physicalActivity",
     "question": "Чи впливає ваша фізична активність на ваше емоційне самопочуття?",
     "answers": [
         {"option": "Так, фізична активність позитивно впливає на моє емоційне становище", "impact_on": "physicalActivity", "impact": 2},
@@ -66,7 +66,7 @@
     ]
     },
     {
-    "category": "Physical Activity",
+    "category": "physicalActivity",
     "question": "Як ви обираєте вид фізичної активності? Чи ви взагалі обираєте його?",
     "answers": [
         {"option": "Так, я обираю конкретні види фізичної активності, які мені подобаються", "impact_on": "physicalActivity", "impact": 2},
@@ -77,7 +77,7 @@
     ]
     },
     {
-    "category": "Relationships",
+    "category": "relationships",
     "question": "Як ви оцінюєте рівень близькості та розуміння у ваших взаємин з родиною?",
     "answers": [
         {"option": "Дуже високий, я відчуваю глибоку зв'язаність і розуміння", "impact_on": "relationships", "impact": 2},
@@ -88,7 +88,7 @@
     ]
     },
     {
-    "category": "Relationships",
+    "category": "relationships",
     "question": "Як часто ви проводите час з родиною і як ви це сприймаєте?",
     "answers": [
         {"option": "Часто, і це приносить мені радість", "impact_on": "relationships", "impact": 2},
@@ -99,7 +99,7 @@
     ]
     },
     {
-    "category": "Relationships",
+    "category": "relationships",
     "question": "Як ви вирішуєте конфлікти або непорозуміння у ваших взаєминах?",
     "answers": [
         {"option": "Ефективно, знаходжу компроміс і шукаю рішення", "impact_on": "relationships", "impact": 2},
@@ -110,7 +110,7 @@
     ]
     },
     {
-    "category": "Relationships",
+    "category": "relationships",
     "question": "Як ви визначаєте важливість довіри в вашій близькій оточенні?",
     "answers": [
         {"option": "Дуже важливо, довіра є основою моїх взаємин", "impact_on": "relationships", "impact": 2},
@@ -121,7 +121,7 @@
     ]
     },
     {
-    "category": "Relationships",
+    "category": "relationships",
     "question": "Чи впливають ваші взаємини на ваше емоційне самопочуття?",
     "answers": [
         {"option": "Так, взаємини позитивно впливають на моє емоційне самопочуття", "impact_on": "relationships", "impact": 2},
@@ -132,7 +132,7 @@
     ]
     },
     {
-    "category": "Work and Studying",
+    "category": "workAndStudying",
     "question": "Як ви оцінюєте свій робочий або навчальний навантаження?",
     "answers": [
         {"option": "Дуже комфортно, я ефективно впораюсь із всіма завданнями", "impact_on": "workAndStudying", "impact": 2},
@@ -143,7 +143,7 @@
     ]
     },
     {
-    "category": "Work and Studying",
+    "category": "workAndStudying",
     "question": "Як ви оцінюєте свій рівень продуктивності на роботі або в університеті?",
     "answers": [
         {"option": "Дуже високий, я завершую завдання швидко і якісно", "impact_on": "workAndStudying", "impact": 2},
@@ -154,7 +154,7 @@
     ]
     },
     {
-    "category": "Work and Studying",
+    "category": "workAndStudying",
     "question": "Як ви вирішуєте труднощі або виклики на роботі або в університеті?",
     "answers": [
         {"option": "Ефективно, знаходжу імовірні та розумні рішення", "impact_on": "workAndStudying", "impact": 2},
@@ -165,7 +165,7 @@
     ]
     },
     {
-    "category": "Work and Studying",
+    "category": "workAndStudying",
     "question": "Як ви оцінюєте своє відношення до навчання чи роботи?",
     "answers": [
         {"option": "Дуже позитивно, я люблю те, чим займаюсь", "impact_on": "workAndStudying", "impact": 2},
@@ -176,7 +176,7 @@
     ]
     },
     {
-    "category": "Work and Studying",
+    "category": "workAndStudying",
     "question": "Як часто ви відчуваєте стрес на роботі або в університеті?",
     "answers": [
         {"option": "Майже ніколи, я вмію ефективно впоратися зі стресом", "impact_on": "workAndStudying", "impact": 2},
@@ -187,7 +187,7 @@
     ]
     },
     {
-    "category": "Well-being",
+    "category": "wellBeing",
     "question": "Як часто ви відчуваєте втомленість та безсилля?",
     "answers": [
         {"option": "Майже ніколи, я завжди повний/повна енергії", "impact_on": "wellBeing", "impact": 2},
@@ -198,7 +198,7 @@
     ]
     },
     {
-    "category": "Well-being",
+    "category": "wellBeing",
     "question": "Як ви оцінюєте свій сон та відновлення сил?",
     "answers": [
         {"option": "Дуже добре, я завжди відпочиваю на повну катушку", "impact_on": "wellBeing", "impact": 2},
@@ -209,7 +209,7 @@
     ]
     },
     {
-    "category": "Well-being",
+    "category": "wellBeing",
     "question": "Як ви відноситесь до свого фізичного здоров'я?",
     "answers": [
         {"option": "Дуже позитивно, я дбаю про своє фізичне здоров'я", "impact_on": "wellBeing", "impact": 2},
@@ -220,7 +220,7 @@
     ]
     },
     {
-    "category": "Well-being",
+    "category": "wellBeing",
     "question": "Як часто ви відчуваєте радість та задоволення від життя?",
     "answers": [
         {"option": "Дуже часто, я насолоджуюсь кожним моментом", "impact_on": "wellBeing", "impact": 2},
@@ -231,7 +231,7 @@
     ]
     },
     {
-    "category": "Well-being",
+    "category": "wellBeing",
     "question": "Як ви відноситесь до своїх емоцій та стресу в повсякденному житті?",
     "answers": [
         {"option": "Дуже позитивно, я вмію ефективно управляти своїми емоціями та стресом", "impact_on": "wellBeing", "impact": 2},
@@ -242,7 +242,7 @@
     ]
     },
     {
-    "category": "Social Connections",
+    "category": "socialConnections",
     "question": "Як часто ви спілкуєтеся з друзями або колегами поза робочим чи навчальним середовищем?",
     "answers": [
         {"option": "Часто, я часто проводжу час з друзями або колегами", "impact_on": "socialConnections", "impact": 2},
@@ -253,7 +253,7 @@
     ]
     },
     {
-    "category": "Social Connections",
+    "category": "socialConnections",
     "question": "Як ви відноситесь до нових знайомств і розширення свого соціального кола?",
     "answers": [
         {"option": "Позитивно, я завжди відкритий/відкрита для нових знайомств", "impact_on": "socialConnections", "impact": 2},
@@ -264,7 +264,7 @@
     ]
     },
     {
-    "category": "Social Connections",
+    "category": "socialConnections",
     "question": "Як важливо для вас мати близькі соціальні зв'язки у вашому житті?",
     "answers": [
         {"option": "Дуже важливо, мої соціальні зв'язки - це основа мого щастя", "impact_on": "socialConnections", "impact": 2},
@@ -275,7 +275,7 @@
     ]
     },
     {
-    "category": "Social Connections",
+    "category": "socialConnections",
     "question": "Як ви вирішуєте конфлікти чи непорозуміння у ваших соціальних взаєминах?",
     "answers": [
         {"option": "Ефективно, знаходжу компроміс і шукаю рішення", "impact_on": "socialConnections", "impact": 2},
@@ -286,7 +286,7 @@
     ]
     },
     {
-    "category": "Stress",
+    "category": "stress",
     "question": "Як часто ви відчуваєте стрес в повсякденному житті?",
     "answers": [
         {"option": "Майже ніколи, я вмію ефективно впоратися зі стресом", "impact_on": "stress", "impact": 2},
@@ -297,7 +297,7 @@
     ]
     },
     {
-    "category": "Stress",
+    "category": "stress",
     "question": "Як ви реагуєте на стресові ситуації?",
     "answers": [
         {"option": "Ефективно, шукаю конструктивні вирішення проблем", "impact_on": "stress", "impact": 2},
@@ -308,7 +308,7 @@
     ]
     },
     {
-    "category": "Stress",
+    "category": "stress",
     "question": "Як ви визначаєте ситуації, які викликають у вас стрес?",
     "answers": [
         {"option": "Мало ситуацій, які викликають у мене стрес, я добре справляюсь з труднощами", "impact_on": "stress", "impact": 2},
@@ -319,7 +319,7 @@
     ]
     },
     {
-    "category": "Stress",
+    "category": "stress",
     "question": "Як ви впораєтеся із стресом під час періодів великої навантаженості чи непередбачених обставин?",
     "answers": [
         {"option": "Добре, я використовую стрес як стимул для досягнення цілей", "impact_on": "stress", "impact": 2},
@@ -330,7 +330,7 @@
     ]
     },
     {
-    "category": "Stress",
+    "category": "stress",
     "question": "Як ви визначаєте, коли стрес стає надто великим для вас?",
     "answers": [
         {"option": "Мало коли, я вмію ефективно контролювати свій стрес", "impact_on": "stress", "impact": 2},

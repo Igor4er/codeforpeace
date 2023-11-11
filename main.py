@@ -4,14 +4,15 @@ import json
 from pydantic import BaseModel, TypeAdapter
 from enum import Enum
 from typing import List
+from models import Answer as DBAnswer
 
 class CategoryEnum(str, Enum):
-    wellBeing = 'Well-being'
-    physicalActivity = 'Physical Activity'
-    workAndStudying = 'Work and Studying'
-    relationships = 'Relationships'
-    socialConnections = 'Social Connections'
-    stress = 'Stress'
+    wellBeing = 'wellBeing'
+    physicalActivity = 'physicalActivity'
+    workAndStudying = 'workAndStudying'
+    relationships = 'relationships'
+    socialConnections = 'socialConnections'
+    stress = 'stress'
 
 app = FastAPI()
 
@@ -38,26 +39,37 @@ def get_questions():
 class UsersAnswer(BaseModel):
     category: str
     question: str
-    impact_on: str
+    impact_on: CategoryEnum
     impact: int
 
-@app.post(path="/apply_answers")
-def apply_answers(answers: list[UsersAnswer]):
-    myd = {}
-    ansl = {}
-    for answer in answers:
-        if answer.impact_on not in myd:
-            myd[answer.impact_on] = 0
-        if answer.impact_on not in ansl:
-            ansl[answer.impact_on] = 0
+class UsrAns(BaseModel):
+    user: str
+    answers: List[UsersAnswer]
 
+@app.post(path="/apply_answers")
+def apply_answers(uanswers: UsrAns):
+    myd = {key: 0 for key in CategoryEnum}
+    ansl = {key: 0 for key in CategoryEnum}
+    answers = uanswers.answers
+    for answer in answers:
         myd[answer.impact_on] += answer.impact
         ansl[answer.impact_on] += 1
     for key in myd.keys():
-        myd[key] /= ansl[key]
-        if ansl[key] < 3:
+        if ansl[key] == 0:
             myd[key] = 0
+        else:
+            myd[key] /= ansl[key]
+            if ansl[key] < 3:
+                myd[key] = 0
 
+    DBAnswer.create(
+        user=uanswers.user,
+        well_being=myd[CategoryEnum.wellBeing],
+        physical_activity=myd[CategoryEnum.physicalActivity],
+        stress=myd[CategoryEnum.stress],
+        social_connections=myd[CategoryEnum.socialConnections],
+        work_and_studying=myd[CategoryEnum.workAndStudying],
+    )
     return myd
 
 
