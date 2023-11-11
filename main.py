@@ -50,7 +50,6 @@ class UsrAns(BaseModel):
 
 class User(BaseModel):
     name: str
-    exp: int
 
 @app.post(path="/apply_answers")
 def apply_answers(uanswers: UsrAns, user: Annotated[User, Depends(JWTBearer())],):
@@ -69,7 +68,7 @@ def apply_answers(uanswers: UsrAns, user: Annotated[User, Depends(JWTBearer())],
                 myd[key] = 0
 
     DBAnswer.create(
-        user=uanswers.user,
+        user=user.name,
         well_being=myd[CategoryEnum.wellBeing],
         physical_activity=myd[CategoryEnum.physicalActivity],
         stress=myd[CategoryEnum.stress],
