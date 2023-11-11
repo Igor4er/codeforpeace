@@ -5,6 +5,8 @@ from pydantic import BaseModel, TypeAdapter
 from enum import Enum
 from typing import List
 from models import Answer as DBAnswer
+from auth import JWTBearer
+from typing import Annotated
 
 class CategoryEnum(str, Enum):
     wellBeing = 'wellBeing'
@@ -46,8 +48,12 @@ class UsrAns(BaseModel):
     user: str
     answers: List[UsersAnswer]
 
+class User(BaseModel):
+    name: str
+    exp: int
+
 @app.post(path="/apply_answers")
-def apply_answers(uanswers: UsrAns):
+def apply_answers(uanswers: UsrAns, user: Annotated[User, Depends(JWTBearer())],):
     myd = {key: 0 for key in CategoryEnum}
     ansl = {key: 0 for key in CategoryEnum}
     answers = uanswers.answers
