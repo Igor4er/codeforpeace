@@ -81,14 +81,18 @@ def apply_answers(uanswers: UsrAns, user: Annotated[User, Depends(JWTBearer())],
 
 @app.get(path="/get_statistics")
 def get_statistics(user: str):
-    data = DBAnswer.get(user==user)
-    return {"well_being": data.well_being,
-    "physical_activity": data.physical_activity,
-    "stress": data.stress,
-    "social_connections": data.social_connections,
-    "work_and_studying": data.work_and_studying,
-    "month": data.date.month,
-    "day": data.date.day}
+    data = []
+    records = DBAnswer.select().where(user==user)
+    for record in records:
+        data.append({"well_being": record.well_being,
+                    "physical_activity": record.physical_activity,
+                    "stress": record.stress,
+                    "social_connections": record.social_connections,
+                    "work_and_studying": record.work_and_studying,
+                    "month": record.date.month,
+                    "day": record.date.day,
+                    "weekday": record.date.weekday()})
+    return data
 
 
 if __name__ == "__main__":
