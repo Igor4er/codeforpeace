@@ -1,82 +1,6 @@
 {
     "questions": [
-        {
-        "category": "Relationships",
-        "question": "Як часто ви спілкуєтеся з родиною та як це вас задовольняє?",
-        "answers": [
-            {"option": "Щодня і це мене дуже радує", "impact": {"relationships": 2}},
-            {"option": "Кілька разів на тиждень і це мене задовольняє", "impact": {"relationships": 1}},
-            {"option": "Не часто, але це мене не турбує", "impact": {"relationships": 0}},
-            {"option": "Майже не спілкуюсь і це мене турбує", "impact": {"relationships": -1}},
-            {"option": "Зовсім не спілкуюсь і це мене дуже турбує", "impact": {"relationships": -2}}
-        ]
-        },
-        {
-        "category": "Work and Studying",
-        "question": "Як ви оцінюєте свою продуктивність у навчанні та роботі?",
-        "answers": [
-            {"option": "Високо, я досягаю поставлених цілей", "impact": {"workStudying": 2}},
-            {"option": "Середньо, можливо, є кілька проблемних моментів", "impact": {"workStudying": 1}},
-            {"option": "Нейтрально, мої досягнення в середньому", "impact": {"workStudying": 0}},
-            {"option": "Низько, мені складно досягати поставлених завдань", "impact": {"workStudying": -1}},
-            {"option": "Дуже низько, я маю серйозні труднощі у навчанні та роботі", "impact": {"workStudying": -2}}
-        ]
-        },
-        {
-        "category": "Well-being",
-        "question": "Як часто ви відчуваєте себе емоційно виснаженим/виснаженою?",
-        "answers": [
-            {"option": "Майже ніколи, я завжди повні енергії", "impact": {"wellBeing": 2}},
-            {"option": "Іноді, але це не впливає на моє благополуччя", "impact": {"wellBeing": 1}},
-            {"option": "Спостерігається регулярно, але я впораюся з цим", "impact": {"wellBeing": 0}},
-            {"option": "Часто, і це впливає на моє емоційне самопочуття", "impact": {"wellBeing": -1}},
-            {"option": "Дуже часто, я постійно відчуваю виснаження", "impact": {"wellBeing": -2}}
-        ]
-        },
-        {
-        "category": "Well-being",
-        "question": "Як часто ви знаходите час для своїх хобі, таких як програмування чи готування?",
-        "answers": [
-            {"option": "Регулярно, мої хобі - важлива частина мого життя", "impact": {"wellBeing": 2}},
-            {"option": "Іноді, коли є вільний час", "impact": {"wellBeing": 1}},
-            {"option": "Рідко, але коли вдається - це приємно", "impact": {"wellBeing": 0}},
-            {"option": "Майже ніколи, я маю мало часу для своїх хобі", "impact": {"wellBeing": -1}},
-            {"option": "Зовсім не знаходжу часу для хобі, це мене тривожить", "impact": {"wellBeing": -2}}
-        ]
-        },
-        {
-        "category": "Well-being",
-        "question": "Як ви оцінюєте своє загальне самопочуття в останній час?",
-        "answers": [
-            {"option": "Чудово, я відчуваю себе дуже добре", "impact": {"wellBeing": 2}},
-            {"option": "Добре, але є деякі труднощі", "impact": {"wellBeing": 1}},
-            {"option": "Нейтрально, без значущих змін", "impact": {"wellBeing": 0}},
-            {"option": "Не дуже добре, є деякі труднощі", "impact": {"wellBeing": -1}},
-            {"option": "Погано, моє самопочуття серйозно погіршилося", "impact": {"wellBeing": -2}}
-        ]
-        },
-        {
-        "category": "Social Connections",
-        "question": "Як часто ви спілкуєтеся з друзями та колегами?",
-        "answers": [
-            {"option": "Дуже часто, у мене багато соціальних зв'язків", "impact": {"socialConnections": 2}},
-            {"option": "Іноді, коли є можливість", "impact": {"socialConnections": 1}},
-            {"option": "Нормально, у мене є деякі соціальні зв'язки", "impact": {"socialConnections": 0}},
-            {"option": "Не дуже часто, мені не завжди є з ким спілкуватися", "impact": {"socialConnections": -1}},
-            {"option": "Практично не спілкуюсь, це мене трошки турбує", "impact": {"socialConnections": -2}}
-        ]
-        },
-        {
-        "category": "Time Management",
-        "question": "Як ви оцінюєте своє управління часом?",
-        "answers": [
-            {"option": "Дуже ефективно, я вмію розподіляти час на завдання", "impact": {"timeManagement": 2}},
-            {"option": "Нормально, але є кілька труднощів із плануванням", "impact": {"timeManagement": 1}},
-            {"option": "Середньо, іноді важко впоратися з багатьма завданнями", "impact": {"timeManagement": 0}},
-            {"option": "Не дуже ефективно, я часто не встигаю завершити роботу", "impact": {"timeManagement": -1}},
-            {"option": "Погано, моє управління часом потребує серйозних покращень", "impact": {"timeManagement": -2}}
-        ]
-        },
+
         {
         "category": "Work and Studying",
         "question": "Як ви оцінюєте свій прогрес у вивченні?",
@@ -318,6 +242,52 @@
             {"option": "Негативно, я важко справляюсь із стресом та емоціями", "impact": {"wellBeing": -1}},
             {"option": "Дуже негативно, мої емоції і стрес мають серйозний вплив на моє життя", "impact": {"wellBeing": -2}}
         ]
-        }
+        },
+        {
+        "questions": [
+            {
+            "category": "Social Connections",
+            "question": "Як часто ви спілкуєтеся з друзями або колегами поза робочим чи навчальним середовищем?",
+            "answers": [
+                {"option": "Часто, я часто проводжу час з друзями або колегами", "impact": {"socialConnections": 2}},
+                {"option": "Іноді, залежить від обставин або настрою", "impact": {"socialConnections": 1}},
+                {"option": "Рідко, але іноді намагаюся спілкуватися за межами роботи або навчання", "impact": {"socialConnections": 0}},
+                {"option": "Майже ніколи, мені складно знайти час для соціальних зустрічей", "impact": {"socialConnections": -1}},
+                {"option": "Зовсім не спілкуюся з друзями чи колегами за межами робочого чи навчального процесу", "impact": {"socialConnections": -2}}
+            ]
+            },
+            {
+            "category": "Social Connections",
+            "question": "Як ви відноситесь до нових знайомств і розширення свого соціального кола?",
+            "answers": [
+                {"option": "Позитивно, я завжди відкритий/відкрита для нових знайомств", "impact": {"socialConnections": 2}},
+                {"option": "Зазвичай позитивно, але іноді важко налагоджувати нові зв'язки", "impact": {"socialConnections": 1}},
+                {"option": "Нейтрально, мені байдуже до розширення свого соціального кола", "impact": {"socialConnections": 0}},
+                {"option": "Негативно, я рідко шукаю нові знайомства", "impact": {"socialConnections": -1}},
+                {"option": "Дуже негативно, нові знайомства мене лякають", "impact": {"socialConnections": -2}}
+            ]
+            },
+            {
+            "category": "Social Connections",
+            "question": "Як важливо для вас мати близькі соціальні зв'язки у вашому житті?",
+            "answers": [
+                {"option": "Дуже важливо, мої соціальні зв'язки - це основа мого щастя", "impact": {"socialConnections": 2}},
+                {"option": "Важливо, але іноді мені потрібен час для самотньої діяльності", "impact": {"socialConnections": 1}},
+                {"option": "Середньо, я не дуже залежу від соціальних зв'язків", "impact": {"socialConnections": 0}},
+                {"option": "Мало важливо, я впораюсь із життям без сильних соціальних зв'язків", "impact": {"socialConnections": -1}},
+                {"option": "Зовсім не важливо, я віддаю перевагу самотності", "impact": {"socialConnections": -2}}
+            ]
+            },
+            {
+            "category": "Social Connections",
+            "question": "Як ви вирішуєте конфлікти чи непорозуміння у ваших соціальних взаєминах?",
+            "answers": [
+                {"option": "Ефективно, знаходжу компроміс і шукаю рішення", "impact": {"socialConnections": 2}},
+                {"option": "Зазвичай, знаходжу спільний мовний контекст", "impact": {"socialConnections": 1}},
+                {"option": "Не завжди успішно, але шукаю вихід із ситуації", "impact": {"socialConnections": 0}},
+                {"option": "Рідко вирішую конфлікти, це мене турбує", "impact": {"socialConnections": -1}},
+                {"option": "Зовсім не вирішую конфлікти, це для мене проблема", "impact": {"socialConnections": -2}}
+            ]
+            }
     ]
 }
