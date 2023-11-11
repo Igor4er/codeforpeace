@@ -4,11 +4,14 @@ import json
 
 app = FastAPI()
 
+QUESTIONS = []
+with open("questions.json", 'r', encoding='utf-8') as json_file:
+        QUESTIONS =  json.load(json_file)
 
 @app.get(path="/get_questions")
 def get_questions():
-    with open("questions.json", 'r', encoding='utf-8') as json_file:
-        return json.load(json_file)
+    return QUESTIONS
+
 
 @app.post(path="/apply_answers")
 def apply_answers():
