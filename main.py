@@ -53,8 +53,13 @@ def apply_answers(answers: list[UsersAnswer]):
 
         myd[answer.impact_on] += answer.impact
         ansl[answer.impact_on] += 1
+    for key in myd.keys():
+        myd[key] /= ansl[key]
+        if ansl[key] < 3:
+            myd[key] = 0
+
     return myd
 
-        
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
