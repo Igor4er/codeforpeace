@@ -2,7 +2,8 @@ from fastapi import FastAPI, Depends
 import uvicorn
 import json
 from pydantic import BaseModel
-from enum inport Enum
+from enum import Enum
+
 
 class CategoryEnum(str, Enum):
     wellBeing = 'Well-being'
