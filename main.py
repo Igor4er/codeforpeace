@@ -7,6 +7,7 @@ from typing import List
 from models import Answer as DBAnswer
 from auth import JWTBearer
 from typing import Annotated
+from fastapi.middleware.cors import CORSMiddleware
 
 class CategoryEnum(str, Enum):
     wellBeing = 'wellBeing'
@@ -17,6 +18,14 @@ class CategoryEnum(str, Enum):
     stress = 'stress'
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class Answer(BaseModel):
     option: str
